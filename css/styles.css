@@ -842,6 +842,7 @@ img {
 .project-list-overlay {
   position: relative;
   overflow: hidden;
+  /* cursor: default; /*убирает курсор*/
 }
 .project-list {
   display: flex;
