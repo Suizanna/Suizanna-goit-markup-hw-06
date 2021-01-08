@@ -154,7 +154,7 @@ img {
   /* outline: 1px solid transparent;*/
 }
 .site-nav .item + .item {
-  margin-left: 53px;
+  margin-left: 50px;
 }
 .menu-link {
   position: relative;
