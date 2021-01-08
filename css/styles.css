@@ -743,20 +743,13 @@ img {
   margin-left: 12px;
 }
 /* Герой Портфолио* 2-я стр ==============*/
-/*.page-nav {
-  /*padding-top: 94px;
+.page-nav {
+  padding-top: 94px;
   padding-bottom: 94px;
-}*/
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .button-list {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -793,6 +786,7 @@ img {
 }
 
 .button-nav:hover,
+.button-nav:focus,
 .button-nav:active {
   color: var(--primary-bg-color); /*#ffffff*/
   background-color: var(--accent-color); /*#2196F3;*/
@@ -804,20 +798,12 @@ img {
 .button-nav .link {
   color: var(--title-text-color);
 }
+
 /* ПОРТФОЛИО КАРТОЧКИ */
-.container-img {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 94px;
-}
-.container-img .carts {
+.container .carts {
   border: 1px solid #eeeeee;
   /*border-top: none;*/
 }
-
 .border {
   border: 1px solid #eeeeee;
   border-top: none;
