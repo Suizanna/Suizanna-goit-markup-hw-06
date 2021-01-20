@@ -89,8 +89,8 @@ img {
   border-bottom: 1px solid #ececec;
 }
 .container-main {
+   display: flex;
   justify-content: space-between;
-  display: flex;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -154,7 +154,7 @@ img {
   /* outline: 1px solid transparent;*/
 }
 .site-nav .item + .item {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .menu-link {
   position: relative;
@@ -221,21 +221,23 @@ img {
 }
 .contact-nav {
   display: flex;
-  margin-left: auto;
+  margin-left: auto; /* или flex-grow: 1 на меню */
   align-self: flex-end;
   cursor: pointer;
+
+
   /*list-style: none;*/
   /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .contact-nav .contact-item + .contact-item {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .contact-item {
   align-items: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
+padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contact-item .link {
   align-items: center;
